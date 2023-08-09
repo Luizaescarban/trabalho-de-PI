@@ -114,42 +114,5 @@ body {
 
 .main{
     display: grid;
-    grid-template-columns: 1fr 300px;
-}
-#container1{
-    display: grid;
-    grid-template-areas: 'article1 article2 article3';
-    max-height: 500px;
-}
-#article1{
-    margin: 5px;
-}
-#article1 img{
- width: 500px;
- height: 250px;
-
-
-}
-#article2{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin: 5px;
-
-}
-#article2 img{
-    width:200px ;
-    height: 200px;
-}
-#article3{
-    display: grid;
-    grid-template-rows: 2fr 1fr 1fr;
-    margin: 5px;
-}
-#article3 img{
-    
-    width:200px ;
-    height: 200px;
-}
-.propaganda2 img{
-     margin-top: 18px ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
