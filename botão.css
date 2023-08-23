@@ -1,24 +1,39 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Lilita+One&display=swap');
+
 :root {
-    --cor-primaria-success: rgb(75, 200, 138);
-    --cor-hover-success: rgb(116, 158, 137);
-    --cor-secundaria-success: rgb(27, 66, 50);
+    --cor-primaria-success: rgb(255, 196, 1);
+    --cor-hover-success: rgb(252, 243, 122);
+    --cor-secundaria-success: rgb(139, 119, 51);
     
     --cor-primaria-info: rgb(61, 157, 246);
-    --cor-hover-info: rgb(116, 134, 158);
+    --cor-hover-info: rgb(124, 181, 255);
     --cor-secundaria-info: rgb(31, 62, 88);
 
-    --cor-primaria-danger: rgb(200, 75, 75);
-    --cor-hover-danger: rgb(158, 116, 116);
-    --cor-secundaria-danger: rgb(58, 22, 22);
+    --cor-primaria-danger: rgb(255, 0, 0);
+    --cor-hover-danger: rgb(253, 106, 106);
+    --cor-secundaria-danger: rgb(65, 23, 23);
+
+    --cor-primaria-success2: rgb(255, 123, 0);
+    --cor-hover-success2: rgb(248, 187, 107);
+    --cor-secundaria-success2: rgb(158, 82, 31);
+    
+    --cor-primaria-info2: rgb(127, 0, 247);
+    --cor-hover-info2: rgb(152, 124, 255);
+    --cor-secundaria-info2: rgb(22, 0, 56);
+
 }
+
 
 .btn {
     border: none;
-    padding: 100px;
+    margin: 5px;
+    padding: 150px;
     text-decoration: none;
     cursor: pointer;
     transition: background .3s;
     border-radius: 500px;
+    
 }
 
 /*SUCCESS*/
@@ -60,11 +75,43 @@
     color: var(--cor-secundaria-danger)
 }
 
-.btn-succdangeress:hover {
+.btn-danger:hover {
     background-color: var(--cor-hover-danger);
 }
 
 .btn-danger:active {
     color:var(--cor-primaria-danger);
     background-color: var(--cor-secundaria-danger);
+}
+
+/*SUCCESS*/
+.btn-success2 {
+    background-color: var(--cor-primaria-success2);
+    outline: none;
+    color: var(--cor-secundaria-success2)
+}
+
+.btn-success2:hover {
+    background-color: var(--cor-hover-success2);
+}
+
+.btn-success2:active {
+    color:var(--cor-primaria-success2);
+    background-color: var(--cor-secundaria-success2);
+}
+
+/*INFO2*/
+.btn-info2 {
+    background-color: var(--cor-primaria-info2);
+    outline: none;
+    color: var(--cor-secundaria-info2)
+}
+
+.btn-info2:hover {
+    background-color: var(--cor-hover-info2);
+}
+
+.btn-info2:active {
+    color:var(--cor-primaria-info);
+    background-color: var(--cor-secundaria-info2);
 }
