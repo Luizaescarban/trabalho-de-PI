@@ -32,41 +32,14 @@ body{
     color: var(--cor-texto-header);
     font-family: var(--fonte-header-footer);
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .txtHeader{
-    flex-grow: 1;
+
     justify-content: center;
     text-align: center;
 }
-.nav {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 0;
-    flex-grow: 1;
-    flex-direction: row;
-    font-family: var(--cor-texto-header);
-    background-color: var(--cor-principal);
-  }
-  
-  .nav a {
-    display: flex;
-    font-family: var(--fonte-textos);
-    color: var(--cor-texto-header);
-    text-align: center;
-    text-decoration: none;
-    padding: 14px 14px;
-    align-items: center;
-  
-  }
-  
-  .nav a:hover {
-    transform: scale()1.1;
-    transition: all 0.5s ease-in-out;
-    background-color: var(--cor-conteudo);
-    color: var(--cor-principal);
-    padding: 14px 14px;
-  }
   section{
     display: flex;
     flex-direction: column;
@@ -76,26 +49,34 @@ body{
     opacity: 0.8;
     margin: 200px;
     border-radius: 20px;
+    height: 500px;
   }
   #nomeSite{
     color: var(--cor-texto-header);
     font-size: larger;
   }
   #Pags{
-    padding: 35px;
+    padding: 40px;
   }
   #Pags a{
     color: var(--cor-conteudo);
     border: white solid 1px;
     border-radius: 20px;
+    padding: 15px 25px;
     font-family: var(--fonte-textos);
     margin-top: 15px;
     opacity: 1;
+    width: 100px;
+    height: 100px;
   }
   .footer{
-    display: flex;
-    flex-direction: row;
-    background-color: var(--cor-footer);
-    color: var(--cor-conteudo);
-    font-family: var(--fonte-textos);
+      display: flex;
+      flex-direction: row;
+      background-color: var(--cor-footer);
+      color: var(--cor-conteudo);
+      text-align: center;
+      padding: 1rem;
+      font-family: var(--fonte-header-footer);
+  
   }
+  
