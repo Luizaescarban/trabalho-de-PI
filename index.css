@@ -77,6 +77,11 @@ body{
       text-align: center;
       padding: 1rem;
       font-family: var(--fonte-header-footer);
-  
+    height: 200px;
+  }
+  .footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
