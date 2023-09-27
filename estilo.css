@@ -3,40 +3,42 @@
 
 :root {
 
-    --fonte-header-footer: 'Lilita One', cursive;
+  --fonte-header-footer: 'Lilita One', cursive;
 
-    --fonte-textos: 'Rubik', sans-serif;
+  --fonte-textos: 'Rubik', sans-serif;
 
 
 }
-body{
+
+body {
   margin: 0;
   background-attachment: fixed;
 }
 
 .pg1 {
-background-image: url(fotos/vangogh.webp);
-background-repeat: no-repeat;
-background-size: cover;
+  background-image: url(fotos/vangogh.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.container{
+.container {
   display: grid;
-  grid-template-areas: 
-          "header header"
-          "main main"
-          "footer footer";
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
 }
 
-header{
-  background-image: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.8));  grid-area: h;
+header {
+  background-image: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.8));
+  grid-area: h;
   background-color: rgb(32, 32, 32);
   grid-area: header;
   height: 150px;
   border: 1px solid black;
 }
 
-main{
+main {
   font-family: Arial, Helvetica, sans-serif;
   padding: 3cm 2cm 2cm 3cm;
   margin: 20px 350px;
@@ -47,26 +49,26 @@ main{
 }
 
 
-main p{
+main p {
   text-indent: 4em;
   text-align: justify;
 }
 
-main img{
+main img {
   display: block;
   margin: auto;
 }
 
-.citacao{
+.citacao {
   font-size: 0.83em;
   margin: 1cm 0 0cm 4cm;
 }
 
 .pontos {
-width: 60%;
+  width: 60%;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -159,7 +161,7 @@ nav {
   display: block;
 }
 
-nav a{
+nav a {
   text-align: center;
   font-size: 1.1em;
   font-family: 'Oswald', sans-serif;
@@ -167,30 +169,30 @@ nav a{
   color: #FFF;
 }
 
-#logo{
-  width:160px;
+#logo {
+  width: 160px;
   height: 140px;
 }
 
-#logo img{
+#logo img {
   width: 100px;
-  
+
 }
 
-#logo img:hover{
+#logo img:hover {
   filter: invert(60%);
 
 }
 
-#logo img{
+#logo img {
   padding: 20px;
 }
 
-nav a{
+nav a {
   text-align: center;
 }
 
-figcaption{
+figcaption {
   display: block;
   margin: auto;
   text-align: center;
@@ -199,24 +201,29 @@ figcaption{
 
 }
 
-h1{
+h1 {
   font-size: 2em;
 }
-h2{
+
+h2 {
   font-size: 1.3em;
 }
-h3{
+
+h3 {
   font-size: 1em;
 }
-.refe{
+
+.refe {
   font-size: small;
   text-align: center;
 }
-.image{
-  width: 300px; 
+
+.image {
+  width: 300px;
   height: 300px;
 }
-.footer{
+
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: black;
@@ -226,7 +233,6 @@ h3{
   align-items: center;
   padding: 1rem;
   font-family: var(--fonte-header-footer);
-height: 200px;
+  height: 200px;
 
 }
-
