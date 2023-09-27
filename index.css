@@ -70,18 +70,14 @@ body{
     height: 100px;
   }
   .footer{
-      display: flex;
-      flex-direction: row;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
       background-color: var(--cor-footer);
       color: var(--cor-conteudo);
-      text-align: center;
+      justify-items: center;
+      align-items: center;
       padding: 1rem;
       font-family: var(--fonte-header-footer);
     height: 200px;
-  }
-  .footer div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   
