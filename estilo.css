@@ -3,23 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&family=Lilita+One&display=swap');
 
 :root {
-    --cor-principal: #ffff;
-
-    --cor-texto-header: #AD9E49;
 
     --fonte-header-footer: 'Lilita One', cursive;
 
     --fonte-textos: 'Rubik', sans-serif;
 
-    --nav-color: #AD9E49;
 
-    --nav-hover: #071409;
-
-    --cor-titulos: #565E96;
-
-    --cor-footer: #1D2830;
-
-    --cor-conteudo: #ececec;
 }
 body{
   margin: 0;
@@ -220,17 +209,21 @@ h2{
 h3{
   font-size: 1em;
 }
+.refe{
+  font-size: small;
+  text-align: center;
+}
 .footer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: var(--cor-footer);
-  color: var(--cor-conteudo);
+  background-color: black;
+  color: white;
   justify-items: center;
   grid-area: footer;
   align-items: center;
   padding: 1rem;
   font-family: var(--fonte-header-footer);
 height: 200px;
-width: 100%;
+
 }
 
