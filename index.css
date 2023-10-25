@@ -41,7 +41,7 @@ body{
     align-items: center;
     background-color: black;
     opacity: 0.8;
-    margin: 200px;
+    margin: 100px;
     border-radius: 20px;
     height: 500px;
   }
@@ -51,8 +51,8 @@ body{
   }
   #Pags{
     padding: 40px;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
   }
   #Pags a{
     color: var(--cor-conteudo);
@@ -76,5 +76,91 @@ body{
       padding: 1rem;
       font-family: var(--fonte-header-footer);
     height: 200px;
+  }
+  @media (max-width: 1750px){
+    .header{
+      width: auto;
+    }
+    section{
+      width: auto;
+    }
+    #Pags a{
+      padding: 15px 20px;
+    }
+    .footer{
+      padding: none;
+      width: auto;
+    }
+    #Pags{
+      padding: 30px;
+    }
+  }
+  @media (max-width: 1338px){
+    .header{
+      width: auto;
+    }
+    section{
+      width: auto;
+    }
+    #Pags{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+     
+    }
+    #Pags a{
+      padding: 10px 10px;
+       margin:20px;
+    }
+    #Pags li{
+      padding: 5px 5px;
+      margin-top: 20px;
+      
+    }
+    .footer{
+      padding: none;
+      width: auto;
+    }
+    #pags{
+      padding: 30px;
+    }
+  }
+  @media (max-width: 998px){
+    #Pags{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+     
+    }
+    #Pags li{
+      padding: 5px 5px;
+      margin-top: 20px;
+      
+    }
+  }
+  @media (max-width:799px){
+    #Pags{
+      display: grid;
+      grid-template-columns: 1fr ;
+    }
+    #nomeSite{
+      font-size: medium;
+    }
+    .footer{
+      font-size: x-small;
+    }
+    
+  }
+  @media (max-width:499px){
+    #Pags a{
+      margin: 10px;
+    }
+  }
+  @media (max-width:450px){
+    #Pags a{
+    font-size: x-small;
+    width: 20px;
+    }
+    #nomeSite{
+      font-size: x-small;
+    }
   }
   
