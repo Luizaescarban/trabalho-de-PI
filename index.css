@@ -156,6 +156,9 @@ body{
     #Pags a{
       margin: 10px;
     }
+    section{
+      margin: 30px;
+    }
   }
   @media (max-width:470px){
     #Pags a{
