@@ -154,10 +154,10 @@ body{
       margin: 10px;
     }
   }
-  @media (max-width:450px){
+  @media (max-width:470px){
     #Pags a{
     font-size: x-small;
-    width: 20px;
+    width: 5px;
     }
     #nomeSite{
       font-size: x-small;
