@@ -101,6 +101,7 @@ body{
     }
     section{
       width: auto;
+      
     }
     #Pags{
       display: grid;
@@ -147,7 +148,9 @@ body{
     .footer{
       font-size: x-small;
     }
-    
+    section{
+      margin: 50px;
+    }
   }
   @media (max-width:499px){
     #Pags a{
