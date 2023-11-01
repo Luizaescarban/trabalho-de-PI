@@ -87,7 +87,7 @@ body{
     }
     #Pags a{
       padding: 15px 20px;
-      font-size: x-large;
+      font-size: large;
     }
     .footer{
       grid-template-columns: 1fr;
