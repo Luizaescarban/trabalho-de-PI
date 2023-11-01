@@ -83,13 +83,15 @@ body{
     }
     section{
       width: auto;
+      
     }
     #Pags a{
       padding: 15px 20px;
+      font-size: x-large;
     }
     .footer{
-      padding: none;
-      width: auto;
+      grid-template-columns: 1fr;
+      font-size: xx-large;
     }
     #Pags{
       padding: 30px;
@@ -146,7 +148,7 @@ body{
       font-size: medium;
     }
     .footer{
-      font-size: x-small;
+      font-size: large;
     }
     section{
       margin: 50px;

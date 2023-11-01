@@ -84,7 +84,6 @@ nav {
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: larger;
   padding: 65px 20px;
  
 
@@ -169,20 +168,23 @@ h3 {
   grid-area: footer;
   align-items: center;
   padding: 1rem;
-  font-family: var(--fonte-header-footer);
+  font-family: Arial, Helvetica, sans-serif;
   height: 200px;
-
+  font-size: xx-large;
 }
-@media (max-width: 1750px){
+@media (max-width: 1500px){
   .header{
     width: auto;
+  }
+  #logo{
+    display: none;
   }
   main{
     margin: 0;
     padding: 0;
   }
  section{
-  font-size: medium;
+  font-size: x-large;
   margin: 10px 50px;
   padding: 1.5cm 1cm 1cm 1.5cm;
   border: none;
@@ -192,86 +194,32 @@ h3 {
     width: 200px;
     height: 200px;
   }
+  .footer{
+    grid-template-columns: 1fr;
+    font-size: xx-large;
+  }
+}
   
-}
-@media (max-width: 1338px){
-  .header{
-    width: auto;
-  }
-  section{
-    width: auto;
-    
-  }
-  #Pags{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-   
-  }
-  #Pags a{
-    padding: 10px 10px;
-     margin:20px;
-  }
-  #Pags li{
-    padding: 5px 5px;
-    margin-top: 20px;
-    
-  }
-  .footer{
-    padding: none;
-    width: auto;
-  }
-  #pags{
-    padding: 30px;
-  }
-}
-@media (max-width: 998px){
-  #Pags{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-   
-  }
-  #Pags li{
-    padding: 5px 5px;
-    margin-top: 20px;
-    
-  }
-}
-@media (max-width:799px){
-  #Pags{
-    display: grid;
-    grid-template-columns: 1fr ;
-  }
-  #nomeSite{
-    font-size: medium;
-  }
-  .footer{
-    font-size: x-small;
-  }
-  section{
-    margin: 50px;
-  }
-}
-@media (max-width:499px){
-  #Pags a{
-    margin: 10px;
-  }
-  section{
-    margin: 30px;
-  }
-}
-@media (max-width:470px){
-  #Pags a{
-  font-size: x-small;
-  width: 5px;
-  }
-  #nomeSite{
-    font-size: x-small;
-  }
-}
-@media (max-width:400px){
 
-  section{
-    margin: 30px;
+@media (max-width: 1000px){
+  .li a{
+    font-size:x-large;
+    
+   }
   }
+@media (max-width:799px){
+  .li a{
+    font-size:large;
+    margin: 10px 50px;
+    padding: 1.5cm 1cm;
+    border: none;
+    
+   }
+  .footer{
+    font-size: large;
+  }
+ 
 }
+
+
 
