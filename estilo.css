@@ -173,13 +173,6 @@ h3 {
   font-size: xx-large;
 }
 @media (max-width: 1500px){
-  .container {
-    display: grid;
-    grid-template-areas:
-      "header "
-      "main "
-      "footer ";
-  }
   .header{
     width: auto;
   }
@@ -215,7 +208,6 @@ h3 {
    }
   }
 @media (max-width:799px){
-  
   .li a{
     font-size:large;
     margin: 10px 50px;

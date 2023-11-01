@@ -43,7 +43,7 @@ body{
     opacity: 0.8;
     margin: 100px;
     border-radius: 20px;
-    height: auto;
+    height: 500px;
   }
   #nomeSite{
     color: var(--cor-texto-header);
@@ -119,7 +119,6 @@ body{
       margin-top: 20px;
       
     }
-    
     .footer{
       padding: none;
       width: auto;
