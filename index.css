@@ -221,3 +221,13 @@ section {
     margin: 30px;
   }
 }
+@media (max-width:380px) {
+  #Pags a {
+    font-size: x-small;
+    width: 5px;
+  }
+
+  #nomeSite {
+    font-size: x-small;
+  }
+}
