@@ -250,7 +250,34 @@ h3 {
  
 }
 @media (max-width: 884px){
-  main{
+  main {
     margin: 0px;
+    font-size: small;
+    padding: 10px;
   }
+  main p {
+    text-indent: 1em;
+    text-align: justify;}
+    h1 {
+      font-size: 1.5em;
+    }
+    
+    h2 {
+      font-size: 1rem;
+    }
+    
+    h3 {
+      font-size: 0.9em;
+    }
+    
+    .refe {
+      font-size: small;
+      text-align: center;
+    }
+    
+    .image {
+      width: 200px;
+      height: 200px;
+    }
+    
 }

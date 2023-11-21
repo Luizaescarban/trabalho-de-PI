@@ -159,7 +159,6 @@ section {
 
   #Pags li {
     padding: 5px 5px;
-    margin-top: 20px;
   }
 }
 
@@ -171,16 +170,11 @@ section {
     padding-bottom: 30px;
   }
   .txtHeader{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   #Pags li a {
-    font-size: 1.6rem;
-    padding: 20px;
+    font-size: 1rem;
 
-  }
-
-  #Pags li {
-    padding: 20px;
   }
 
   #nomeSite {
@@ -189,7 +183,7 @@ section {
   }
 
   .footer {
-    font-size: 2rem;
+    font-size: 1.4rem;
     height: 300px;
   }
 
