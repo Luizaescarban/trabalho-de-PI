@@ -222,9 +222,9 @@ section {
   }
 }
 @media (max-width:380px) {
-  #Pags a {
-    font-size: x-small;
-    width: 5px;
+  #Pags li a {
+    font-size: 1.5rem;
+
   }
 
   #nomeSite {
