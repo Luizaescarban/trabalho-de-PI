@@ -2,180 +2,228 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&family=Lilita+One&display=swap');
 
 :root {
-    --cor-principal: black;
+  --cor-principal: black;
 
-    --cor-texto-header: white;
+  --cor-texto-header: white;
 
-    --fonte-header-footer: 'Lilita One', cursive;
+  --fonte-header-footer: 'Lilita One', cursive;
 
-    --fonte-textos: 'Rubik', sans-serif;
+  --fonte-textos: 'Rubik', sans-serif;
 
-    --cor-footer: black;
+  --cor-footer: black;
 
-    --cor-conteudo: #ececec;
+  --cor-conteudo: #ececec;
 }
-body{
-    margin: 0px;
-    background-image: url(fotos/vangogh.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
- 
-}
-.header{
-    background-color: var(--cor-principal);
-    color: var(--cor-texto-header);
-    font-family: var(--fonte-header-footer);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.txtHeader{
 
-    justify-content: center;
-    text-align: center;
+body {
+  margin: 0px;
+  background-image: url(fotos/vangogh.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
-  section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    opacity: 0.8;
-    margin: 100px;
-    border-radius: 20px;
-    height: 500px;
+
+.header {
+  background-color: var(--cor-principal);
+  color: var(--cor-texto-header);
+  font-family: var(--fonte-header-footer);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
+.txtHeader {
+
+  justify-content: center;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 0.8;
+  margin: 100px;
+  border-radius: 20px;
+  height: 500px;
+  flex-wrap: wrap;
+}
+
+#nomeSite {
+  color: var(--cor-texto-header);
+  font-size: larger;
+  padding: 20px;
+}
+#Pags li{
+  margin-top: 30px;
+}
+#Pags a {
+  color: var(--cor-conteudo);
+  border: white solid 1px;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-family: var(--fonte-textos);
+  opacity: 1;
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: var(--cor-footer);
+  color: var(--cor-conteudo);
+  justify-items: center;
+  align-items: center;
+  padding: 1rem;
+  font-family: var(--fonte-header-footer);
+  height: 200px;
+}
+
+@media (max-width: 1750px) {
+  .header {
+    width: auto;
+  }
+
+  section {
+    width: auto;
+
+  }
+
+  #Pags a {
+    padding: 15px 20px;
+    font-size: large;
+  }
+
+  .footer {
+    grid-template-columns: 1fr;
+    font-size: xx-large;
+  }
+
+  #Pags {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 1338px) {
+  .header {
+    width: auto;
+  }
+
+  section {
+    width: auto;
+
   }
   #nomeSite{
-    color: var(--cor-texto-header);
-    font-size: larger;
+    font-size: 1.6rem;
   }
-  #Pags{
-    padding: 40px;
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
+  #Pags {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
   }
-  #Pags a{
-    color: var(--cor-conteudo);
-    border: white solid 1px;
-    border-radius: 20px;
+
+  #Pags a {
+    padding: 10px 10px;
+    font-size: 1.6rem;
+  }
+
+  #Pags li {
     padding: 15px 25px;
-    font-family: var(--fonte-textos);
-    margin-top: 15px;
-    opacity: 1;
-    width: 100px;
-    height: 100px;
-    text-decoration: none;
+    margin-top: 20px;
+
   }
-  .footer{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      background-color: var(--cor-footer);
-      color: var(--cor-conteudo);
-      justify-items: center;
-      align-items: center;
-      padding: 1rem;
-      font-family: var(--fonte-header-footer);
-    height: 200px;
+
+  .footer {
+    padding: none;
+    width: auto;
+    height: 300px;
   }
-  @media (max-width: 1750px){
-    .header{
-      width: auto;
-    }
-    section{
-      width: auto;
-      
-    }
-    #Pags a{
-      padding: 15px 20px;
-      font-size: large;
-    }
-    .footer{
-      grid-template-columns: 1fr;
-      font-size: xx-large;
-    }
-    #Pags{
-      padding: 30px;
-    }
+
+  #pags {
+    padding: 30px;
   }
-  @media (max-width: 1338px){
-    .header{
-      width: auto;
-    }
-    section{
-      width: auto;
-      
-    }
-    #Pags{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-     
-    }
-    #Pags a{
-      padding: 10px 10px;
-       margin:20px;
-    }
-    #Pags li{
-      padding: 5px 5px;
-      margin-top: 20px;
-      
-    }
-    .footer{
-      padding: none;
-      width: auto;
-    }
-    #pags{
-      padding: 30px;
-    }
+}
+
+@media (max-width: 998px) {
+  #Pags {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
   }
-  @media (max-width: 998px){
-    #Pags{
-      display: grid;
-      grid-template-columns: 1fr 1fr ;
-     
-    }
-    #Pags li{
-      padding: 5px 5px;
-      margin-top: 20px;
-      
-    }
+
+  #Pags li {
+    padding: 5px 5px;
+    margin-top: 20px;
   }
-  @media (max-width:799px){
-    #Pags{
-      display: grid;
-      grid-template-columns: 1fr ;
-    }
-    #nomeSite{
-      font-size: medium;
-    }
-    .footer{
-      font-size: large;
-    }
-    section{
-      margin: 50px;
-    }
+}
+
+@media (max-width:799px) {
+  #Pags {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 0px;
+    padding-bottom: 30px;
   }
-  @media (max-width:499px){
-    #Pags a{
-      margin: 10px;
-    }
-    section{
-      margin: 30px;
-    }
+  .txtHeader{
+    font-size: 2.5rem;
   }
-  @media (max-width:470px){
-    #Pags a{
+  #Pags li a {
+    font-size: 1.6rem;
+    padding: 20px;
+
+  }
+
+  #Pags li {
+    padding: 20px;
+  }
+
+  #nomeSite {
+    font-size: 1.6rem;
+    padding: 20px;
+  }
+
+  .footer {
+    font-size: 2rem;
+    height: 300px;
+  }
+
+  section {
+    margin: 30px;
+    height: auto;
+
+  }
+}
+
+@media (max-width:499px) {
+  #Pags a {
+    margin: 10px;
+  }
+
+  section {
+    margin: 30px;
+  }
+}
+
+@media (max-width:470px) {
+  #Pags a {
     font-size: x-small;
     width: 5px;
-    }
-    #nomeSite{
-      font-size: x-small;
-    }
-  }
-  @media (max-width:400px){
-
-    section{
-      margin: 30px;
-    }
   }
 
-  
+  #nomeSite {
+    font-size: x-small;
+  }
+}
+
+@media (max-width:400px) {
+
+  section {
+    margin: 30px;
+  }
+}
