@@ -80,7 +80,6 @@ nav {
 .li {
   cursor: pointer;
   list-style: none;
-  height: 50px;
 }
 
 .menu {
@@ -100,7 +99,7 @@ nav {
   color: white;
   text-align: center;
   text-decoration: none;
-  padding: 50px 20px;
+  padding: 65px 20px;
  
 
 }
@@ -110,7 +109,7 @@ nav {
   transition: all 0.5s ease-in-out;
   background-color: white ;
   color: black ;
-  padding: 65px 20px;
+  padding:  65px 20px;
 }
 
 nav a {
