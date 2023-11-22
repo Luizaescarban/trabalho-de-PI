@@ -22,7 +22,7 @@ body {
   background-size: cover;
 
 }
-
+/*Inicio header e nav*/
 .header {
   background-color: var(--cor-principal);
   color: var(--cor-texto-header);
@@ -38,7 +38,7 @@ body {
   justify-content: center;
   text-align: center;
 }
-
+/*MAIN*/
 section {
   display: flex;
   flex-direction: column;
@@ -71,7 +71,7 @@ section {
   height: 100px;
   text-decoration: none;
 }
-
+/*FOOTER*/
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -83,7 +83,7 @@ section {
   font-family: var(--fonte-header-footer);
   height: 200px;
 }
-
+/*RESPONSIVIDADE*/
 @media (max-width: 1750px) {
   .header {
     width: auto;
