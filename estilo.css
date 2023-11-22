@@ -36,52 +36,12 @@ header {
   grid-area: header;
   border: 1px solid black;
 }
-/*MAIN*/
-main {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 3cm 2cm 2cm 3cm;
-  margin: 20px 200px;
-  background-color: aliceblue;
-  grid-area: main;
-  border: 1px solid black;
-  box-shadow: 5px 10px 5px;
-}
-
-
-main p {
-  text-indent: 4em;
-  text-align: justify;
-}
-
-main img {
-  display: block;
-  margin: auto;
-}
-
-.citacao {
-  font-size: 0.83em;
-  margin: 1cm 0 0cm 4cm;
-}
-
-.pontos {
-  width: 60%;
-}
-
-a {
-  text-decoration: none;
-}
 nav {
   display: flex;
   position: relative;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
-.li {
-  cursor: pointer;
-  list-style: none;
-}
-
 .menu {
   margin: 0;
  grid-area: menu;
@@ -140,6 +100,46 @@ nav a {
 
 nav a {
   text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+.li {
+  cursor: pointer;
+  list-style: none;
+}
+
+
+/*MAIN*/
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3cm 2cm 2cm 3cm;
+  margin: 20px 200px;
+  background-color: aliceblue;
+  grid-area: main;
+  border: 1px solid black;
+  box-shadow: 5px 10px 5px;
+}
+
+
+main p {
+  text-indent: 4em;
+  text-align: justify;
+}
+
+main img {
+  display: block;
+  margin: auto;
+}
+
+.citacao {
+  font-size: 0.83em;
+  margin: 1cm 0 0cm 4cm;
+}
+
+.pontos {
+  width: 60%;
 }
 
 figcaption {
